@@ -1,0 +1,30 @@
+
+version: 2
+
+models:
+  - name: cap03_tb_dados3
+    description: "Ref cap03_tb_dados3"
+    columns:
+      - name: classe
+        description: "classe da doenca"
+        tests:
+          - unique
+          - not_null
+
+  - name: cap03_tb_dados4
+    description: "A starter dbt model"
+    columns:
+      - name: classe
+        description: "classe da doenca"
+        tests:
+          - unique
+          - not_null
+
+  - name: cap03_tb_dados5
+    description: "A starter dbt model"
+    columns:
+      - name: classe
+        description: "classe da doenca"
+        tests:
+          - unique
+          - not_null
